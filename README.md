@@ -1,4 +1,3 @@
-# Desarrollo-web-Sena
 import java.util.Scanner;
 
 
@@ -21,6 +20,15 @@ public class Condicionales {
         System.out.println("Los valores con suma es"+ " " + total);
         System.out.println("Los valores con multiplicacion es: "+ " "+ total2);
         System.out.println("Los valores con divisoon es: " + " " + total3);
+
+        if (valor1 > valor2) {
+            System.out.println("El valor 1 es mayor que el valor 2");
+        }
+        else {
+            System.out.println("El valor 2 es mayor");
+        }
+
+
 
     }
 
